@@ -1,5 +1,5 @@
 services:
   - mysql
 
-before_install:
+script:
   - mysql -e 'CREATE DATABASE myapp_test;'
